@@ -1,3 +1,4 @@
+from .executor import Executor
 from .impl import MCProtocol, MCRcon, PalProtocol, PalRcon
 from .packet import Packet, Type
 from .protocol import Protocol, Read, Write
@@ -12,4 +13,5 @@ __all__ = [
     "Read",
     "Type",
     "Write",
+    "Executor",
 ]
